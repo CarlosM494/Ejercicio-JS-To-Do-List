@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="E1.js"></script>
+    <title>Ejercicio JS: To Do List</title>
+  </head>
+  <body>
+    <!-- status:
+     - new = nuevo
+     - done = hecho -->
+
+    <h1>Lista de tareas</h1>
+
+    <input id="newI" type="text" placeholder="Escribe tu nueva tarea" />
+    <button onclick="addItem()">Agrega una nueva tarea</button>
+
+    <ul id="list">
+      <li class="done">Acomodar la cama</li>
+      <li class="done">Lavar la ropa</li>
+      <li class="done">Desayunar</li>
+      <li class="done">Estudiar</li>
+      <li class="done">Tomar clases</li>
+      <li class="done">Ir al gym</li>
+    </ul>
+
+    <style>
+      .new {
+        color: green;
+      }
+
+      .done {
+        color: gray;
+      }
+    </style>
+  </body>
+</html>
